@@ -22,11 +22,39 @@ public class Alumno {
     // porque estas variables son locales y las otras globales.
     public Alumno(int id, String nombre, String apellido) {
         this.id = id; // al id de esta clase, o sea al atrubuto id de esta clase asignale el valor de
-                      // id que recib por parametro
+                      // id que recibo por parametro. Si no usara la palabra this como la variable de
+                      // clase (atributo) y el parametro que recibe tienen el mismo nombre, dentro del
+                      // constructor se establecería el parametro igual a si mismo y la variable de
+                      // clase permanecería sin inicializarse.
         this.nombre = nombre;
         this.apellido = apellido;
     }
+    // Getters y setters: getters --> funciones, setters--> Procedimientos
+    // pr cada atributo de la clase: 1 getter y 1 setter
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
     // metodos: para armarlos:
     /*
      * 1: poner el modificador de acceso
