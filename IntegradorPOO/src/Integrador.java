@@ -20,8 +20,10 @@ public class Integrador {
         pika.atacarAraniazo();
         pika.atacarImpactrueno();
 
-        // ver atributos
-        System.out.println(pika.nombre);
+        // ver atributos: puedo acceder directamente porque los atributos son protected
+        System.out.println("Nombre: " + pika.nombre);
+        // accedo a los atributos mediante los getters, mejor practica
+        System.out.println("Nombre: " + pika.getNombre());
 
     }
 }
