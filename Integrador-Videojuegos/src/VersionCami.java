@@ -37,8 +37,8 @@ public class VersionCami {
          */
         videojuego1.setTitulo("EA Sports FIFA 25");
         videojuego1.setCantJugadores(6);
-        videojuego2.setTitulo("Grand Theft Auto VI");
-        videojuego2.setCantJugadores(2);
+        videojuego3.setTitulo("Grand Theft Auto VI");
+        videojuego3.setCantJugadores(2);
 
         // Recorrer despues del cambio y mostrar todo
         System.out.println("\n=== Videojuegos después del cambio ===");
